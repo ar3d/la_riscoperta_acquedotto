@@ -34,23 +34,23 @@
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
       </div>
-      <div class="mwc-switch-wrapper">
-      <mwc-switch id="toggleHotspotsaudio"><span>Mostra i contenuti audio</span></mwc-switch>
-    </div>
-<!--     <paper-toggle-button id="toggleHotspotsaudio">Show annotations</paper-toggle-button> --> 
-      <div class="mwc-switch-wrapper-1">
-      <mwc-switch id="toggleHotspotspersonaggio"><span>Mostra le biografie1</span></mwc-switch>
+       <div class="mwc-switch-wrapper">
+      <mwc-switch id="toggleHotspotspersonaggio"><span>Mostra le biografie</span></mwc-switch>
     </div>
 <!--     <paper-toggle-button id="toggleHotspotspersonaggio">Show annotations</paper-toggle-button> --> 
+      <div class="mwc-switch-wrapper-1">
+      <mwc-switch id="toggleHotspotsaudio"><span>Mostra gli audio</span></mwc-switch>
+    </div>
+<!--     <paper-toggle-button id="toggleHotspotsaudio">Show annotations</paper-toggle-button> --> 
     </model-viewer> 
     <script src="script.js"></script>
     <script type="module">
     
-    toggleHotspotsaudio.addEventListener('change', () => {
-      modelViewer.classList.toggle('show-Hotspotsaudio', toggleHotspotsaudio.checked);
-    });
     toggleHotspotspersonaggio.addEventListener('change', () => {
-      modelViewer.classList.toggle('show-Hotspotspersonaggio', toggleHotspotspersonaggio.checked);
+      modelViewer.classList.toggle('show-hotspotspersonaggio', toggleHotspotspersonaggio.checked);
+    });
+    toggleHotspotsaudio.addEventListener('change', () => {
+      modelViewer.classList.toggle('show-hotspotsaudio', toggleHotspotsaudio.checked);
     });
 
   </script>
