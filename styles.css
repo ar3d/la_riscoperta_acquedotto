@@ -68,7 +68,7 @@ model-viewer {
   color: rgba(255, 255, 255, 0.8);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   text-align: left;
   left: calc(100% + 1em);
@@ -129,7 +129,7 @@ model-viewer {
   color: rgba(255, 255, 255, 0.8);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   text-align: left;
   left: calc(100% + 1em);
