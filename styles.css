@@ -26,7 +26,7 @@ model-viewer {
       pointer-events: none;
     }
 
-.Hotspot {
+.Hotspotaudio {
   background: rgb(89, 2, 2);
   border-radius: 12px;
   border: 0;
@@ -40,7 +40,7 @@ model-viewer {
   width: 8px;
 }
 
-.Hotspot:not([data-visible]) {
+.Hotspotaudio:not([data-visible]) {
   background: transparent;
   border: 2px solid #590202;
   box-shadow: none;
@@ -49,19 +49,19 @@ model-viewer {
   width: 12px;
 }
 
-.Hotspot:focus {
+.Hotspotaudio:focus {
   border: 2px solid rgb(237, 237, 237);
   height: 12px;
   outline: none;
   width: 12px;
 }
 
-.Hotspot > * {
+.Hotspotaudio > * {
   opacity: 1;
   transform: translateY(-50%);
 }
 
-.HotspotAnnotation{
+.HotspotAnnotationaudio{
   background: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
@@ -80,14 +80,14 @@ model-viewer {
   width: max-content;
 }
 
-.Hotspot:not([data-visible]) > * {
+.Hotspotaudio:not([data-visible]) > * {
   opacity: 0;
   pointer-events: none;
   transform: translateY(calc(-50% + 2px));
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.Hotspotpendenze {
+.Hotspotpersonaggio {
   background: rgb(12, 64, 1);
   border-radius: 12px;
   border: 0;
@@ -101,7 +101,7 @@ model-viewer {
   width: 8px;
 }
 
-.Hotspotpendenze:not([data-visible]) {
+.Hotspotpersonaggio:not([data-visible]) {
   background: transparent;
   border: 2px solid #0c4001;
   box-shadow: none;
@@ -110,19 +110,19 @@ model-viewer {
   width: 12px;
 }
 
-.Hotspotpendenze:focus {
+.Hotspotpersonaggio:focus {
   border: 2px solid rgb(237, 237, 237);
   height: 12px;
   outline: none;
   width: 12px;
 }
 
-.Hotspotpendenze > * {
+.Hotspotpersonaggio > * {
   opacity: 1;
   transform: translateY(-50%);
 }
 
-.HotspotAnnotationpendenze{
+.HotspotAnnotationpersonaggio{
   background: rgba(0, 0, 0, 0.4);
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
@@ -142,7 +142,7 @@ model-viewer {
   width: max-content;
 }
 
-.Hotspotpendenze:not([data-visible]) > * {
+.Hotspotpersonaggio:not([data-visible]) > * {
   opacity: 0;
   pointer-events: none;
   transform: translateY(calc(-50% + 2px));
