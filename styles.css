@@ -16,12 +16,12 @@ model-viewer {
   background: linear-gradient(to top right, rgb(218, 221, 227), rgb(119, 124, 133));
 }
 
- model-viewer:not(.show-hotspots) .Hotspot {
+ model-viewer:not(.show-hotspotspersonaggio) .Hotspotpersonaggio {
       opacity: 0;
       pointer-events: none;
     }
 
- model-viewer:not(.show-hotspotspendenze) .Hotspotpendenze {
+ model-viewer:not(.show-hotspotsaudio) .Hotspotaudio {
       opacity: 0;
       pointer-events: none;
     }
