@@ -68,15 +68,16 @@ model-viewer {
   color: rgba(255, 255, 255, 0.8);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   text-align: left;
   left: calc(100% + 1em);
-  max-width: 130px;
+  max-width: 128px;
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
   top: 300%;
+  left: -800%;
   width: max-content;
 }
 
