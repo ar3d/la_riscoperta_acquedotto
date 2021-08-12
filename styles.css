@@ -133,12 +133,12 @@ model-viewer {
   font-weight: 700;
   text-align: left;
   left: calc(100% + 1em);
-  max-width: 300px;
+  max-width: 200px;
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
-  top: -1500%;
-  left: -1000%;
+  top: -400%;
+  left: -900%;
   width: max-content;
 }
 
