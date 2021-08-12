@@ -35,9 +35,9 @@
           <img src="ar_hand_prompt.png">
       </div>
       <div class="mwc-switch-wrapper">
-      <mwc-switch id="toggleHotspots"><span>Mostra le quote</span></mwc-switch>
+      <mwc-switch id="toggleHotspotsaudio"><span>Mostra i contenuti audio</span></mwc-switch>
     </div>
-<!--     <paper-toggle-button id="toggleHotspots">Show annotations</paper-toggle-button> --> 
+<!--     <paper-toggle-button id="toggleHotspotsaudio">Show annotations</paper-toggle-button> --> 
       <div class="mwc-switch-wrapper-1">
       <mwc-switch id="toggleHotspotspersonaggio"><span>Mostra le biografie</span></mwc-switch>
     </div>
@@ -46,11 +46,11 @@
     <script src="script.js"></script>
     <script type="module">
     
-    toggleHotspotaudio.addEventListener('change', () => {
-      modelViewer.classList.toggle('show-hotspotsaudio', toggleHotspotaudio.checked);
+    toggleHotspotsaudio.addEventListener('change', () => {
+      modelViewer.classList.toggle('show-hotspotsaudio', toggleHotspotsaudio.checked);
     });
-    toggleHotspotpersonaggio.addEventListener('change', () => {
-      modelViewer.classList.toggle('show-hotspotspersonaggio', toggleHotspotpersonaggio.checked);
+    toggleHotspotspersonaggio.addEventListener('change', () => {
+      modelViewer.classList.toggle('show-hotspotspersonaggio', toggleHotspotspersonaggio.checked);
     });
 
   </script>
