@@ -170,7 +170,7 @@ model-viewer {
   font-weight: 700;
   text-align: left;
   left: calc(100% + 1em);
-  max-width: 128px;
+  max-width: 135px;
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
