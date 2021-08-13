@@ -2,13 +2,13 @@ $(document).ready(function() {
 
 	$(".popup-me_1").click(function(){
 
-		pop_init( "Nato nel 1785 - morto il 14 agosto 1860. Archeologo, teologo e Arcidiacono della Cattedrale di Venafro precettore di Leopoldo Pilla." );
+		pop_init_1( "Nato nel 1785 - morto il 14 agosto 1860. Archeologo, teologo e Arcidiacono della Cattedrale di Venafro precettore di Leopoldo Pilla." );
 
 	});
 
 });
 
-function pop_init( my_content ) {
+function pop_init_1( my_content ) {
 
 	var pop_height = 'auto';
         var pop_html = '<div class="pop-bg"></div><div class="pop-wrap"><p class="pop-x">X</p><div class="pop-content"></div></div>';
