@@ -27,7 +27,7 @@ body {
 .popup-me_1 {
 	background-color: rgba(0, 0, 0, 0.4);
         border-radius: 4px;
-	padding: 7px;
+	padding: 6px;
 	width: 128px;
 	margin: auto;
 	text-align: center;
@@ -41,7 +41,7 @@ body {
 .popup-me_2 {
 	background-color: rgba(0, 0, 0, 0.4);
         border-radius: 4px;
-	padding: 7px;
+	padding: 6px;
 	width: 128px;
 	margin: auto;
 	text-align: center;
