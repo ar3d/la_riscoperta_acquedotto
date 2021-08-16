@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(".popup-me").click(function(){
 
-		pop_init( "Nell’aprile del 1629 nasceva a Venafro Ludovico Valla. Sua madre Antonia Martucci aveva sposato Antonio Valla che da Prata si era trasferito a Venafro in occasione delle nozze. Dopo aver terminato i suoi studi in “arte medica”, nel 1656 fu uno dei cinque medici che tentarono, su incarico dell’Università, di trovare rimedi alla grande peste che afflisse Venafro provocando migliaia di morti. Dal suo matrimonio con una Mancini ebbe tre figli che morirono prima di lui. Rimasto vedovo, si fece sacerdote fino a diventare Primicerio della Cattedrale di Venafro. Morì il 31 dicembre 1698." );
+		pop_init( "Nell’aprile del 1629 nasceva a Venafro Ludovico Valla. Sua madre Antonia Martucci aveva sposato Antonio Valla che, da Prata Sannita in provincia di Caserta, si era trasferito a Venafro in occasione delle nozze. Dopo aver terminato i suoi studi in “arte medica”, nel 1656 fu uno dei cinque medici che tentarono, su incarico della comunità di Venafro, di trovare rimedi alla grande peste che afflisse la citta provocando migliaia di morti. Dal suo matrimonio con una Mancini ebbe tre figli che morirono prima di lui. Rimasto vedovo, si fece sacerdote fino a diventare Primicerio della Cattedrale di Venafro. Morì il 31 dicembre 1698." );
 
 	});
 
