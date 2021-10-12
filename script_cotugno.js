@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(".popup-me_1").click(function(){
 
-		pop_init_1( "Nato nel 1785, muore il 14 agosto 1860. Archeologo, teologo e Arcidiacono della Cattedrale di Venafro, fu precettore di Leopoldo Pilla, professore di Mineralogia e Geologia prima all'Università di Napoli e successivamente all'Università di Pisa, fervente patriota, caduto nei pressi di Curtatone nel 1848 nel corso della Prima guerra d'indipendenza." );
+		pop_init_1( "Nato nel 1785, morì il 14 agosto 1860. Archeologo, teologo e arcidiacono della Cattedrale di Venafro, fu precettore di Leopoldo Pilla, professore di Mineralogia e Geologia prima all'Università di Napoli e successivamente all'Università di Pisa, fervente patriota, caduto nei pressi di Curtatone nel 1848 nel corso della Prima guerra d'indipendenza." );
 
 	});
 
